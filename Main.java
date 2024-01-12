@@ -24,7 +24,8 @@ public class Main {
             numberOFAccounts++;
             System.out.println("Account Created Successfully.");
             System.out.println("Your account number: " + accountNumber);
-        }else{
+        }
+        else{
             System.out.println("Maximum number of accounts reached");
         }
     }
